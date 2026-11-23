@@ -1,0 +1,1724 @@
+[
+  {
+    "slug": "road-to-city",
+    "map_id": 9,
+    "enum_tag": "RoadToCity",
+    "dt_row": "RtSH_MapRoadToSilentHill",
+    "region": "south-vale",
+    "floor": "Road",
+    "era": "fog",
+    "twin": null,
+    "order": 0,
+    "priority": null,
+    "rotation_deg": 0.0,
+    "scale_px_per_cm": 0.02714206,
+    "cm_per_px": 36.8432,
+    "origin_xy": [
+      28204.407,
+      46997.736
+    ],
+    "anchor1_world": [
+      58430.0,
+      48599.0,
+      -600.0
+    ],
+    "anchor2_world": [
+      -3330.0,
+      27199.0,
+      3500.0
+    ],
+    "anchor1_ui": [
+      820.384765625,
+      43.461585998535156
+    ],
+    "anchor2_ui": [
+      -858.3466186523438,
+      -530.2942504882812
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/City/RoadtoCity_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapRoadtoCity_01_A_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "city-east",
+    "map_id": 10,
+    "enum_tag": "CityEast",
+    "dt_row": "EcFW_MapEastCity",
+    "region": "south-vale",
+    "floor": "East",
+    "era": "fog",
+    "twin": "city-east-ow",
+    "order": 1,
+    "priority": 0,
+    "rotation_deg": 0.0,
+    "scale_px_per_cm": 0.03001198,
+    "cm_per_px": 33.32,
+    "origin_xy": [
+      -5174.718,
+      45724.86
+    ],
+    "anchor1_world": [
+      -21401.572298,
+      40960.095657,
+      -100.0
+    ],
+    "anchor2_world": [
+      7110.772077,
+      48858.359856,
+      1100.0
+    ],
+    "anchor1_ui": [
+      -487.0,
+      -143.0
+    ],
+    "anchor2_ui": [
+      369.0,
+      93.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/City/CityEast_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapEastCity_Widget_01_A_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "city-west",
+    "map_id": 11,
+    "enum_tag": "CityWest",
+    "dt_row": "EcFW_MapWestCity",
+    "region": "south-vale",
+    "floor": "West",
+    "era": "fog",
+    "twin": "city-west-ow",
+    "order": 2,
+    "priority": 1,
+    "rotation_deg": 0.0,
+    "scale_px_per_cm": 0.03611088,
+    "cm_per_px": 27.6925,
+    "origin_xy": [
+      -45117.189,
+      43118.385
+    ],
+    "anchor1_world": [
+      -28141.694707,
+      24425.95674,
+      -550.0
+    ],
+    "anchor2_world": [
+      -51003.08176,
+      48311.394684,
+      850.0
+    ],
+    "anchor1_ui": [
+      613.0,
+      -675.0
+    ],
+    "anchor2_ui": [
+      -211.0,
+      189.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/City/CityWest_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapWestCity_Widget_01_A",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "city-east-ow",
+    "map_id": 12,
+    "enum_tag": "CityEastOW",
+    "dt_row": "EcFW_MapEastCityOW",
+    "region": "south-vale",
+    "floor": "East OW",
+    "era": "otherworld",
+    "twin": "city-east",
+    "order": 3,
+    "priority": 0,
+    "rotation_deg": 0.0,
+    "scale_px_per_cm": 0.03001198,
+    "cm_per_px": 33.32,
+    "origin_xy": [
+      -5174.718,
+      45724.86
+    ],
+    "anchor1_world": [
+      -21401.572298,
+      40960.095657,
+      -100.0
+    ],
+    "anchor2_world": [
+      7110.772077,
+      48858.359856,
+      1100.0
+    ],
+    "anchor1_ui": [
+      -487.0,
+      -143.0
+    ],
+    "anchor2_ui": [
+      369.0,
+      93.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/City/CityEastOW_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapEastCity_01_B_Widget",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "city-west-ow",
+    "map_id": 13,
+    "enum_tag": "CityWestOW",
+    "dt_row": "EcFW_MapWestCityOW",
+    "region": "south-vale",
+    "floor": "West OW",
+    "era": "otherworld",
+    "twin": "city-west",
+    "order": 4,
+    "priority": 1,
+    "rotation_deg": 0.0,
+    "scale_px_per_cm": 0.03689911,
+    "cm_per_px": 27.1009,
+    "origin_xy": [
+      -44749.869,
+      42736.421
+    ],
+    "anchor1_world": [
+      -28137.001905,
+      24443.29697,
+      -550.0
+    ],
+    "anchor2_world": [
+      -42409.426102,
+      49535.337361,
+      850.0
+    ],
+    "anchor1_ui": [
+      613.0,
+      -675.0
+    ],
+    "anchor2_ui": [
+      37.0,
+      221.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/City/CityWestOW_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapWestCity_01_B_Widget",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "woodside-1f",
+    "map_id": 20,
+    "enum_tag": "Woodside_1F",
+    "dt_row": "WsaFW_MapWoodSide1F",
+    "region": "woodside",
+    "floor": "1F",
+    "era": "fog",
+    "twin": null,
+    "order": 0,
+    "priority": 3,
+    "rotation_deg": 0.0,
+    "scale_px_per_cm": 0.19258523,
+    "cm_per_px": 5.1925,
+    "origin_xy": [
+      -21809.742,
+      37195.535
+    ],
+    "anchor1_world": [
+      -23299.991211,
+      32999.98999,
+      0.0
+    ],
+    "anchor2_world": [
+      -17800.000488,
+      39070.003906,
+      350.0
+    ],
+    "anchor1_ui": [
+      -287.0,
+      -808.0
+    ],
+    "anchor2_ui": [
+      770.0,
+      363.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/WoodSide/WoodSideApartments1F_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapWoodside_1F_Widget_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "woodside-2f",
+    "map_id": 21,
+    "enum_tag": "Woodside_2F",
+    "dt_row": "WsaFW_MapWoodSide2F",
+    "region": "woodside",
+    "floor": "2F",
+    "era": "fog",
+    "twin": null,
+    "order": 1,
+    "priority": 4,
+    "rotation_deg": 0.0,
+    "scale_px_per_cm": 0.19258523,
+    "cm_per_px": 5.1925,
+    "origin_xy": [
+      -21809.742,
+      37195.535
+    ],
+    "anchor1_world": [
+      -23299.991211,
+      32999.98999,
+      400.0
+    ],
+    "anchor2_world": [
+      -17800.000488,
+      39070.003906,
+      750.0
+    ],
+    "anchor1_ui": [
+      -287.0,
+      -808.0
+    ],
+    "anchor2_ui": [
+      770.0,
+      363.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/WoodSide/WoodSideApartments2F_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapWoodside_2F_Widget_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "woodside-3f",
+    "map_id": 22,
+    "enum_tag": "Woodside_3F",
+    "dt_row": "WsaFW_MapWoodSide3F",
+    "region": "woodside",
+    "floor": "3F",
+    "era": "fog",
+    "twin": null,
+    "order": 2,
+    "priority": 5,
+    "rotation_deg": 0.0,
+    "scale_px_per_cm": 0.19258523,
+    "cm_per_px": 5.1925,
+    "origin_xy": [
+      -21809.742,
+      37195.535
+    ],
+    "anchor1_world": [
+      -23299.991211,
+      32999.98999,
+      800.0
+    ],
+    "anchor2_world": [
+      -17800.000488,
+      39070.003906,
+      1350.0
+    ],
+    "anchor1_ui": [
+      -287.0,
+      -808.0
+    ],
+    "anchor2_ui": [
+      770.0,
+      363.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/WoodSide/WoodSideApartments3F_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapWoodside_3F_Widget_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "bluecreek-1f",
+    "map_id": 60,
+    "enum_tag": "BlueCreek_1F",
+    "dt_row": "BcaOW_MapBlueCreek1F",
+    "region": "blue-creek",
+    "floor": "1F",
+    "era": "otherworld",
+    "twin": null,
+    "order": 0,
+    "priority": 6,
+    "rotation_deg": 0.0,
+    "scale_px_per_cm": 0.19567591,
+    "cm_per_px": 5.1105,
+    "origin_xy": [
+      -26872.103,
+      38700.554
+    ],
+    "anchor1_world": [
+      -29550.0,
+      39600.0,
+      1305.0
+    ],
+    "anchor2_world": [
+      -24100.0,
+      35085.0,
+      1305.0
+    ],
+    "anchor1_ui": [
+      -524.0,
+      176.0
+    ],
+    "anchor2_ui": [
+      542.0,
+      -708.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/BlueCreek/BlueCreekApartments1F_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapBlue_1F_Widget_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "bluecreek-2f",
+    "map_id": 61,
+    "enum_tag": "BlueCreek_2F",
+    "dt_row": "BcaOW_MapBlueCreek2F",
+    "region": "blue-creek",
+    "floor": "2F",
+    "era": "otherworld",
+    "twin": null,
+    "order": 1,
+    "priority": 7,
+    "rotation_deg": 0.0,
+    "scale_px_per_cm": 0.19567591,
+    "cm_per_px": 5.1105,
+    "origin_xy": [
+      -26872.103,
+      38700.554
+    ],
+    "anchor1_world": [
+      -29550.0,
+      39600.0,
+      1305.0
+    ],
+    "anchor2_world": [
+      -24100.0,
+      35085.0,
+      1305.0
+    ],
+    "anchor1_ui": [
+      -524.0,
+      176.0
+    ],
+    "anchor2_ui": [
+      542.0,
+      -708.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/BlueCreek/BlueCreekApartments2F_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapBlue_2F_Widget_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "bluecreek-3f",
+    "map_id": 62,
+    "enum_tag": "BlueCreek_3F",
+    "dt_row": "BcaOW_MapBlueCreek3F",
+    "region": "blue-creek",
+    "floor": "3F",
+    "era": "otherworld",
+    "twin": null,
+    "order": 2,
+    "priority": 8,
+    "rotation_deg": 0.0,
+    "scale_px_per_cm": 0.19567591,
+    "cm_per_px": 5.1105,
+    "origin_xy": [
+      -26872.103,
+      38700.554
+    ],
+    "anchor1_world": [
+      -29550.0,
+      39600.0,
+      1305.0
+    ],
+    "anchor2_world": [
+      -24100.0,
+      35085.0,
+      1305.0
+    ],
+    "anchor1_ui": [
+      -524.0,
+      176.0
+    ],
+    "anchor2_ui": [
+      542.0,
+      -708.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/BlueCreek/BlueCreekApartments3F_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapBlue_3F_Widget_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "hospital-fw-bf",
+    "map_id": 33,
+    "enum_tag": "Hospital_FW_BF",
+    "dt_row": "HosFW_MapBrookhavenHospitalBF",
+    "region": "hospital-fw",
+    "floor": "BF",
+    "era": "fog",
+    "twin": "hospital-ow-bf",
+    "order": 0,
+    "priority": 2,
+    "rotation_deg": 90.0,
+    "scale_px_per_cm": 0.2969839,
+    "cm_per_px": 3.3672,
+    "origin_xy": [
+      -55580.914,
+      40548.951
+    ],
+    "anchor1_world": [
+      -58368.94398,
+      43404.325031,
+      -150.0
+    ],
+    "anchor2_world": [
+      -54570.007812,
+      37560.000001,
+      50.0
+    ],
+    "anchor1_ui": [
+      -848.0,
+      -828.0
+    ],
+    "anchor2_ui": [
+      885.2094116210938,
+      304.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/Hospital/BrookhavenHospitalFWBF_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapHospital_BF_Widget_01_A_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "hospital-fw-1f",
+    "map_id": 30,
+    "enum_tag": "Hospital_FW_1F",
+    "dt_row": "HosFW_MapBrookhavenHospital1F",
+    "region": "hospital-fw",
+    "floor": "1F",
+    "era": "fog",
+    "twin": "hospital-ow-1f",
+    "order": 1,
+    "priority": 3,
+    "rotation_deg": 90.0,
+    "scale_px_per_cm": 0.24623036,
+    "cm_per_px": 4.0612,
+    "origin_xy": [
+      -56102.126,
+      40551.989
+    ],
+    "anchor1_world": [
+      -54900.0,
+      43394.855124,
+      750.0
+    ],
+    "anchor2_world": [
+      -59435.0,
+      37759.996094,
+      350.008057
+    ],
+    "anchor1_ui": [
+      -700.0,
+      296.0
+    ],
+    "anchor2_ui": [
+      688.0,
+      -820.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/Hospital/BrookhavenHospitalFW1F_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapHospital_1F_Widget_02_A_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "hospital-fw-2f",
+    "map_id": 31,
+    "enum_tag": "Hospital_FW_2F",
+    "dt_row": "HosFW_MapBrookhavenHospital2F",
+    "region": "hospital-fw",
+    "floor": "2F",
+    "era": "fog",
+    "twin": "hospital-ow-2f",
+    "order": 2,
+    "priority": 4,
+    "rotation_deg": 90.0,
+    "scale_px_per_cm": 0.28205441,
+    "cm_per_px": 3.5454,
+    "origin_xy": [
+      -55501.496,
+      40472.903
+    ],
+    "anchor1_world": [
+      -54920.04811,
+      43380.143493,
+      650.0
+    ],
+    "anchor2_world": [
+      -58130.013673,
+      37719.948088,
+      850.0
+    ],
+    "anchor1_ui": [
+      -820.0,
+      164.0
+    ],
+    "anchor2_ui": [
+      784.0,
+      -728.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/Hospital/BrookhavenHospitalFW2F_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapHospital_2F_Widget_TB_03",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "hospital-fw-3f",
+    "map_id": 32,
+    "enum_tag": "Hospital_FW_3F",
+    "dt_row": "HosFW_MapBrookhavenHospital3F",
+    "region": "hospital-fw",
+    "floor": "3F",
+    "era": "fog",
+    "twin": "hospital-ow-3f",
+    "order": 3,
+    "priority": 5,
+    "rotation_deg": 90.0,
+    "scale_px_per_cm": 0.29190854,
+    "cm_per_px": 3.4257,
+    "origin_xy": [
+      -55579.604,
+      40459.981
+    ],
+    "anchor1_world": [
+      -58375.000001,
+      43365.000977,
+      1050.0
+    ],
+    "anchor2_world": [
+      -55955.0,
+      39470.0,
+      1250.0
+    ],
+    "anchor1_ui": [
+      -848.0,
+      -816.0
+    ],
+    "anchor2_ui": [
+      288.0,
+      -108.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/Hospital/BrookhavenHospitalFW3F_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapHospital_3F_Widget_TB_02",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "hospital-ow-bf",
+    "map_id": 53,
+    "enum_tag": "Hospital_OW_BF",
+    "dt_row": "HosOW_MapHospitalBF",
+    "region": "hospital-ow",
+    "floor": "BF",
+    "era": "otherworld",
+    "twin": "hospital-fw-bf",
+    "order": 0,
+    "priority": 6,
+    "rotation_deg": 90.0,
+    "scale_px_per_cm": 0.2969839,
+    "cm_per_px": 3.3672,
+    "origin_xy": [
+      -55580.914,
+      40548.951
+    ],
+    "anchor1_world": [
+      -58368.94398,
+      43404.325031,
+      -150.0
+    ],
+    "anchor2_world": [
+      -54570.007812,
+      37560.000001,
+      50.0
+    ],
+    "anchor1_ui": [
+      -848.0,
+      -828.0
+    ],
+    "anchor2_ui": [
+      885.2094116210938,
+      304.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/HospitalFog/BrookhavenHospitalOWBF_FogMapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapHospital_BF_Widget_01_A_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "hospital-ow-1f",
+    "map_id": 50,
+    "enum_tag": "Hospital_OW_1F",
+    "dt_row": "HosOW_MapHospital1F",
+    "region": "hospital-ow",
+    "floor": "1F",
+    "era": "otherworld",
+    "twin": "hospital-fw-1f",
+    "order": 1,
+    "priority": 7,
+    "rotation_deg": 90.0,
+    "scale_px_per_cm": 0.24922569,
+    "cm_per_px": 4.0124,
+    "origin_xy": [
+      -56158.923,
+      40537.164
+    ],
+    "anchor1_world": [
+      -54570.001434,
+      43390.000122,
+      250.0
+    ],
+    "anchor2_world": [
+      -60065.0,
+      37770.0,
+      450.0
+    ],
+    "anchor1_ui": [
+      -711.0,
+      396.0
+    ],
+    "anchor2_ui": [
+      695.0,
+      -968.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/HospitalFog/BrookhavenHospitalOW1F_FogMapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapHospital_1F_Widget_02_B_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "hospital-ow-2f",
+    "map_id": 51,
+    "enum_tag": "Hospital_OW_2F",
+    "dt_row": "HosOW_MapHospital2F",
+    "region": "hospital-ow",
+    "floor": "2F",
+    "era": "otherworld",
+    "twin": "hospital-fw-2f",
+    "order": 2,
+    "priority": 8,
+    "rotation_deg": 90.0,
+    "scale_px_per_cm": 0.2825918,
+    "cm_per_px": 3.5387,
+    "origin_xy": [
+      -55500.391,
+      40478.432
+    ],
+    "anchor1_world": [
+      -54920.04811,
+      43380.143493,
+      650.0
+    ],
+    "anchor2_world": [
+      -58130.013673,
+      37719.948088,
+      850.0
+    ],
+    "anchor1_ui": [
+      -820.0,
+      164.0
+    ],
+    "anchor2_ui": [
+      788.0,
+      -728.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/HospitalFog/BrookhavenHospitalOW2F_FogMapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapHospital_2F_Opacity_Widget_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "hospital-ow-3f",
+    "map_id": 52,
+    "enum_tag": "Hospital_OW_3F",
+    "dt_row": "HosOW_MapHospital3F",
+    "region": "hospital-ow",
+    "floor": "3F",
+    "era": "otherworld",
+    "twin": "hospital-fw-3f",
+    "order": 3,
+    "priority": 9,
+    "rotation_deg": 90.0,
+    "scale_px_per_cm": 0.29340389,
+    "cm_per_px": 3.4083,
+    "origin_xy": [
+      -55570.649,
+      40461.534
+    ],
+    "anchor1_world": [
+      -58270.0,
+      43269.949528,
+      1050.0
+    ],
+    "anchor2_world": [
+      -55955.0,
+      39470.0,
+      1250.0
+    ],
+    "anchor1_ui": [
+      -824.0,
+      -792.0
+    ],
+    "anchor2_ui": [
+      288.0,
+      -108.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/HospitalFog/BrookhavenHospitalOW3F_FogMapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapHospitalOW_3F_Widget_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "prison-1f-main",
+    "map_id": 74,
+    "enum_tag": "Toluca_Prison_OW_1F_Main",
+    "dt_row": "PriOW_MapTolucaPrison_Main_1F",
+    "region": "prison",
+    "floor": "1F Main",
+    "era": "otherworld",
+    "twin": null,
+    "order": 0,
+    "priority": 0,
+    "rotation_deg": -90.0,
+    "scale_px_per_cm": 0.15713477,
+    "cm_per_px": 6.364,
+    "origin_xy": [
+      -56209.132,
+      43351.647
+    ],
+    "anchor1_world": [
+      -55420.0,
+      36860.403533,
+      -18237.542844
+    ],
+    "anchor2_world": [
+      -51358.923254,
+      49583.999996,
+      -18233.0
+    ],
+    "anchor1_ui": [
+      -1020.0,
+      -124.0
+    ],
+    "anchor2_ui": [
+      980.0,
+      -760.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/TolucaPrison/TolucaPrison_Main_1F_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapPrison_1FMain_Widget_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "prison-1f-serpent",
+    "map_id": 76,
+    "enum_tag": "Toluca_Prison_OW_1F_Serpent",
+    "dt_row": "PriOW_MapTolucaPrison_Serpent_1F",
+    "region": "prison",
+    "floor": "1F Serpent",
+    "era": "otherworld",
+    "twin": null,
+    "order": 1,
+    "priority": 1,
+    "rotation_deg": -90.0,
+    "scale_px_per_cm": 0.21666198,
+    "cm_per_px": 4.6155,
+    "origin_xy": [
+      -58952.983,
+      42640.966
+    ],
+    "anchor1_world": [
+      -59303.759879,
+      41090.163278,
+      -17852.443556
+    ],
+    "anchor2_world": [
+      -55605.621715,
+      44055.377483,
+      -18227.645595
+    ],
+    "anchor1_ui": [
+      -336.0,
+      76.0
+    ],
+    "anchor2_ui": [
+      308.0,
+      -724.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/TolucaPrison/TolucaPrison_Serpent_1F_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapPrison_1FSerpent_Widget_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "prison-1f-boar",
+    "map_id": 75,
+    "enum_tag": "Toluca_Prison_OW_1F_Boar",
+    "dt_row": "PriOW_MapTolucaPrison_Boar_1F",
+    "region": "prison",
+    "floor": "1F Boar",
+    "era": "otherworld",
+    "twin": null,
+    "order": 2,
+    "priority": 1,
+    "rotation_deg": -90.0,
+    "scale_px_per_cm": 0.2041367,
+    "cm_per_px": 4.8987,
+    "origin_xy": [
+      -53103.016,
+      40772.58
+    ],
+    "anchor1_world": [
+      -48660.940913,
+      37779.86514,
+      -18350.0
+    ],
+    "anchor2_world": [
+      -52566.0,
+      44278.894599,
+      -18000.0
+    ],
+    "anchor1_ui": [
+      -610.9229125976562,
+      -906.7905883789062
+    ],
+    "anchor2_ui": [
+      716.021728515625,
+      -110.0478744506836
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/TolucaPrison/TolucaPrison_Boar_1F_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapPrison_1FBoar_Widget_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "prison-2f",
+    "map_id": 72,
+    "enum_tag": "Toluca_Prison_OW_2F",
+    "dt_row": "PriOW_MapTolucaPrison2F",
+    "region": "prison",
+    "floor": "2F Ox",
+    "era": "otherworld",
+    "twin": null,
+    "order": 3,
+    "priority": 1,
+    "rotation_deg": -90.0,
+    "scale_px_per_cm": 0.20827309,
+    "cm_per_px": 4.8014,
+    "origin_xy": [
+      -56598.435,
+      43557.234
+    ],
+    "anchor1_world": [
+      -52373.213394,
+      40234.673019,
+      -18238.0
+    ],
+    "anchor2_world": [
+      -56811.000009,
+      48014.999992,
+      -17600.0
+    ],
+    "anchor1_ui": [
+      -692.0,
+      -880.0
+    ],
+    "anchor2_ui": [
+      924.0,
+      52.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/TolucaPrison/TolucaPrison2F_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapPrison_2FOx_Widget_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "prison-3f",
+    "map_id": 73,
+    "enum_tag": "Toluca_Prison_OW_3F",
+    "dt_row": "PriOW_MapTolucaPrison3F",
+    "region": "prison",
+    "floor": "3F Warden",
+    "era": "otherworld",
+    "twin": null,
+    "order": 4,
+    "priority": 1,
+    "rotation_deg": -90.0,
+    "scale_px_per_cm": 0.21512748,
+    "cm_per_px": 4.6484,
+    "origin_xy": [
+      -55444.618,
+      42217.894
+    ],
+    "anchor1_world": [
+      -54329.0,
+      40154.001101,
+      -17537.999997
+    ],
+    "anchor2_world": [
+      -53149.0,
+      41298.0,
+      -17000.0
+    ],
+    "anchor1_ui": [
+      -444.0,
+      -240.0
+    ],
+    "anchor2_ui": [
+      -196.0,
+      -492.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/TolucaPrison/TolucaPrison3F_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapPrison_3FWarden_Widget_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "prison-bf",
+    "map_id": 70,
+    "enum_tag": "Toluca_Prison_OW_BF",
+    "dt_row": "PriOW_MapTolucaPrisonBF",
+    "region": "prison",
+    "floor": "BF Dove",
+    "era": "otherworld",
+    "twin": null,
+    "order": 5,
+    "priority": 1,
+    "rotation_deg": -90.0,
+    "scale_px_per_cm": 0.27086481,
+    "cm_per_px": 3.6919,
+    "origin_xy": [
+      -54660.388,
+      42341.501
+    ],
+    "anchor1_world": [
+      -54557.01567,
+      41263.472568,
+      -18635.628026
+    ],
+    "anchor2_world": [
+      -52645.305082,
+      44119.019528,
+      -18637.778609
+    ],
+    "anchor1_ui": [
+      -292.0,
+      -28.0
+    ],
+    "anchor2_ui": [
+      480.0,
+      -548.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/TolucaPrison/TolucaPrisonBF_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapPrison_BFDove_Widget_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "labyrinth-hub",
+    "map_id": 90,
+    "enum_tag": "Labyrinth_MainArea",
+    "dt_row": "LabOW_MapHUB",
+    "region": "labyrinth",
+    "floor": "Hub",
+    "era": "otherworld",
+    "twin": null,
+    "order": 0,
+    "priority": 1,
+    "rotation_deg": 90.0,
+    "scale_px_per_cm": 0.17378008,
+    "cm_per_px": 5.7544,
+    "origin_xy": [
+      -63288.038,
+      44510.026
+    ],
+    "anchor1_world": [
+      -61930.0,
+      48399.999999,
+      -44200.0
+    ],
+    "anchor2_world": [
+      -68025.000013,
+      40703.604636,
+      -43333.035808
+    ],
+    "anchor1_ui": [
+      -676.0,
+      236.0
+    ],
+    "anchor2_ui": [
+      664.0,
+      -820.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/Labyrinth/LabyrinthHUB_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapLabirynt_Empty_Widget_01_A_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "labyrinth-fear-up",
+    "map_id": 92,
+    "enum_tag": "Labyrinth_FearPathUp",
+    "dt_row": "LabOW_MapFearPathUp",
+    "region": "labyrinth",
+    "floor": "Fear 1F",
+    "era": "otherworld",
+    "twin": null,
+    "order": 1,
+    "priority": 2,
+    "rotation_deg": 90.0,
+    "scale_px_per_cm": 0.22329734,
+    "cm_per_px": 4.4783,
+    "origin_xy": [
+      -68236.373,
+      45696.466
+    ],
+    "anchor1_world": [
+      -66660.0,
+      49100.000034,
+      -43405.0
+    ],
+    "anchor2_world": [
+      -72150.0,
+      42324.999975,
+      -43005.0
+    ],
+    "anchor1_ui": [
+      -760.0,
+      352.0
+    ],
+    "anchor2_ui": [
+      764.0,
+      -860.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/Labyrinth/LabyrinthFearPathUP_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapLabirynt_Empty_Widget_01_A_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "labyrinth-fear-down",
+    "map_id": 93,
+    "enum_tag": "Labyrinth_FearPathDown",
+    "dt_row": "LabOW_MapFearPathDown",
+    "region": "labyrinth",
+    "floor": "Fear BF",
+    "era": "otherworld",
+    "twin": null,
+    "order": 2,
+    "priority": 2,
+    "rotation_deg": 90.0,
+    "scale_px_per_cm": 0.22049852,
+    "cm_per_px": 4.5352,
+    "origin_xy": [
+      -70027.79,
+      45359.923
+    ],
+    "anchor1_world": [
+      -68250.0,
+      48335.000026,
+      -44005.0
+    ],
+    "anchor2_world": [
+      -74436.830596,
+      42609.999998,
+      -43605.0
+    ],
+    "anchor1_ui": [
+      -656.0,
+      392.0
+    ],
+    "anchor2_ui": [
+      632.0,
+      -948.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/Labyrinth/LabyrinthFearPathDOWN_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapLabirynt_Empty_Widget_01_A_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "labyrinth-disgust",
+    "map_id": 91,
+    "enum_tag": "Labyrinth_DisgustPath",
+    "dt_row": "LabOW_MapDisgustPath",
+    "region": "labyrinth",
+    "floor": "Disgust",
+    "era": "otherworld",
+    "twin": null,
+    "order": 3,
+    "priority": 2,
+    "rotation_deg": -90.0,
+    "scale_px_per_cm": 0.16993608,
+    "cm_per_px": 5.8846,
+    "origin_xy": [
+      -70041.698,
+      48440.494
+    ],
+    "anchor1_world": [
+      -64416.053682,
+      43215.0,
+      -43335.000006
+    ],
+    "anchor2_world": [
+      -71574.999999,
+      53917.000652,
+      -43135.0
+    ],
+    "anchor1_ui": [
+      -888.0,
+      -956.0
+    ],
+    "anchor2_ui": [
+      912.0,
+      288.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/Labyrinth/LabyrinthDisgustPath_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapLabirynt_Disgust_Widget_01_A_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "labyrinth-anger",
+    "map_id": 94,
+    "enum_tag": "Labyrinth_AngerPath",
+    "dt_row": "LabOW_MapAngerPath",
+    "region": "labyrinth",
+    "floor": "Anger",
+    "era": "otherworld",
+    "twin": null,
+    "order": 4,
+    "priority": 0,
+    "rotation_deg": 0.0,
+    "scale_px_per_cm": 0.14978983,
+    "cm_per_px": 6.676,
+    "origin_xy": [
+      -63663.734,
+      43734.235
+    ],
+    "anchor1_world": [
+      -69325.0,
+      45470.000011,
+      -44295.0
+    ],
+    "anchor2_world": [
+      -57294.999996,
+      38668.886404,
+      -43405.0
+    ],
+    "anchor1_ui": [
+      -848.0,
+      260.0
+    ],
+    "anchor2_ui": [
+      960.0,
+      -748.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/Labyrinth/LabyrinthAngerPath_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapLabirynt_Anger_Widget_01_A_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "hotel-gf",
+    "map_id": 45,
+    "enum_tag": "LakeviewHotel_OW_GF",
+    "dt_row": "LhOW_MapLakeviewHotelGF",
+    "region": "hotel",
+    "floor": "Garden",
+    "era": "fog",
+    "twin": null,
+    "order": 0,
+    "priority": null,
+    "rotation_deg": 0.0,
+    "scale_px_per_cm": 0.14632936,
+    "cm_per_px": 6.8339,
+    "origin_xy": [
+      -69250.396,
+      -47406.303
+    ],
+    "anchor1_world": [
+      -64712.6875,
+      -52272.039062,
+      375.798065
+    ],
+    "anchor2_world": [
+      -71029.984375,
+      -47874.992188,
+      150.0
+    ],
+    "anchor1_ui": [
+      664.0,
+      -712.0
+    ],
+    "anchor2_ui": [
+      -260.0,
+      -68.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/LakeViewHotel/LakeviewHotelOWGF_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapHotel_Garden_Widget_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "hotel-bf",
+    "map_id": 44,
+    "enum_tag": "LakeviewHotel_OW_BF",
+    "dt_row": "LhOW_MapLakeviewHotelBF",
+    "region": "hotel",
+    "floor": "BF",
+    "era": "fog",
+    "twin": "hotel-burnt-bf",
+    "order": 1,
+    "priority": 2,
+    "rotation_deg": 0.0,
+    "scale_px_per_cm": 0.22921882,
+    "cm_per_px": 4.3626,
+    "origin_xy": [
+      -69990.676,
+      -53879.672
+    ],
+    "anchor1_world": [
+      -73760.0,
+      -57299.984375,
+      -120.0
+    ],
+    "anchor2_world": [
+      -68799.996094,
+      -54700.0,
+      200.0
+    ],
+    "anchor1_ui": [
+      -864.0,
+      -784.0
+    ],
+    "anchor2_ui": [
+      260.0,
+      -164.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/LakeViewHotel/LakeviewHotelOWBF_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapHotel_1B_Widget_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "hotel-1f",
+    "map_id": 40,
+    "enum_tag": "LakeviewHotel_OW_1F",
+    "dt_row": "LhOW_MapLakeviewHotel1F",
+    "region": "hotel",
+    "floor": "1F",
+    "era": "fog",
+    "twin": "hotel-burnt-ef",
+    "order": 2,
+    "priority": 4,
+    "rotation_deg": 0.0,
+    "scale_px_per_cm": 0.22825957,
+    "cm_per_px": 4.381,
+    "origin_xy": [
+      -69950.863,
+      -53494.463
+    ],
+    "anchor1_world": [
+      -66099.984375,
+      -57100.007812,
+      200.0
+    ],
+    "anchor2_world": [
+      -73800.0,
+      -53250.0,
+      750.0
+    ],
+    "anchor1_ui": [
+      879.0,
+      -823.0
+    ],
+    "anchor2_ui": [
+      -880.0,
+      53.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/LakeViewHotel/LakeviewHotelOW1F_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapHotel_1F_Widget_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "hotel-ef",
+    "map_id": 43,
+    "enum_tag": "LakeviewHotel_OW_EF",
+    "dt_row": "LhOW_MapLakeviewHotelEF",
+    "region": "hotel",
+    "floor": "1F Emp",
+    "era": "fog",
+    "twin": "hotel-burnt-ef",
+    "order": 3,
+    "priority": 3,
+    "rotation_deg": 0.0,
+    "scale_px_per_cm": 0.22825957,
+    "cm_per_px": 4.381,
+    "origin_xy": [
+      -69950.863,
+      -53494.463
+    ],
+    "anchor1_world": [
+      -66099.984375,
+      -57100.007812,
+      200.0
+    ],
+    "anchor2_world": [
+      -73800.0,
+      -53250.0,
+      500.0
+    ],
+    "anchor1_ui": [
+      879.0,
+      -823.0
+    ],
+    "anchor2_ui": [
+      -880.0,
+      53.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/LakeViewHotel/LakeviewHotelOWEF_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapHotel_1FE_Widget_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "hotel-2f",
+    "map_id": 41,
+    "enum_tag": "LakeviewHotel_OW_2F",
+    "dt_row": "LhOW_MapLakeviewHotel2F",
+    "region": "hotel",
+    "floor": "2F",
+    "era": "fog",
+    "twin": "hotel-burnt-2f",
+    "order": 4,
+    "priority": 5,
+    "rotation_deg": 0.0,
+    "scale_px_per_cm": 0.22825957,
+    "cm_per_px": 4.381,
+    "origin_xy": [
+      -69950.863,
+      -53494.463
+    ],
+    "anchor1_world": [
+      -66099.984375,
+      -57100.007812,
+      750.0
+    ],
+    "anchor2_world": [
+      -73800.0,
+      -53250.0,
+      1200.0
+    ],
+    "anchor1_ui": [
+      879.0,
+      -823.0
+    ],
+    "anchor2_ui": [
+      -880.0,
+      53.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/LakeViewHotel/LakeviewHotelOW2F_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapHotel_2F_Widget_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "hotel-3f",
+    "map_id": 42,
+    "enum_tag": "LakeviewHotel_OW_3F",
+    "dt_row": "LhOW_MapLakeviewHotel3F",
+    "region": "hotel",
+    "floor": "3F",
+    "era": "fog",
+    "twin": "hotel-burnt-3f",
+    "order": 5,
+    "priority": 6,
+    "rotation_deg": 0.0,
+    "scale_px_per_cm": 0.22825957,
+    "cm_per_px": 4.381,
+    "origin_xy": [
+      -69950.863,
+      -53494.463
+    ],
+    "anchor1_world": [
+      -66099.984375,
+      -57100.007812,
+      1200.0
+    ],
+    "anchor2_world": [
+      -73800.0,
+      -53250.0,
+      1500.0
+    ],
+    "anchor1_ui": [
+      879.0,
+      -823.0
+    ],
+    "anchor2_ui": [
+      -880.0,
+      53.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/LakeViewHotel/LakeviewHotelOW3F_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapHotel_3F_Widget_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "hotel-venus",
+    "map_id": 46,
+    "enum_tag": "LakeviewHotel_OW_VF",
+    "dt_row": "LhOW_MapLakeviewHotelVenus",
+    "region": "hotel",
+    "floor": "Venus",
+    "era": "fog",
+    "twin": null,
+    "order": 6,
+    "priority": null,
+    "rotation_deg": 0.0,
+    "scale_px_per_cm": 0.22921882,
+    "cm_per_px": 4.3626,
+    "origin_xy": [
+      -69990.676,
+      -53879.672
+    ],
+    "anchor1_world": [
+      -73760.0,
+      -57299.984375,
+      -120.0
+    ],
+    "anchor2_world": [
+      -68799.996094,
+      -54700.0,
+      200.0
+    ],
+    "anchor1_ui": [
+      -864.0,
+      -784.0
+    ],
+    "anchor2_ui": [
+      260.0,
+      -164.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/LakeViewHotel/LakeviewHotelOWVenus_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapHotel_Venus_Widget_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "hotel-burnt-bf",
+    "map_id": 80,
+    "enum_tag": "LakeviewHotel_FW_BF",
+    "dt_row": "LhFW_MapLakeviewHotelBF",
+    "region": "hotel",
+    "floor": "Burnt BF",
+    "era": "burnt",
+    "twin": "hotel-bf",
+    "order": 7,
+    "priority": 2,
+    "rotation_deg": 0.0,
+    "scale_px_per_cm": 0.22921882,
+    "cm_per_px": 4.3626,
+    "origin_xy": [
+      -69990.676,
+      -53879.672
+    ],
+    "anchor1_world": [
+      -73760.0,
+      -57299.984375,
+      0.0
+    ],
+    "anchor2_world": [
+      -68799.996094,
+      -54700.0,
+      0.0
+    ],
+    "anchor1_ui": [
+      -864.0,
+      -784.0
+    ],
+    "anchor2_ui": [
+      260.0,
+      -164.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/LakeViewHotelFW/LakeviewHotelFWBF_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapHotel_BFBurnt_Widget_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "hotel-burnt-ef",
+    "map_id": 81,
+    "enum_tag": "LakeviewHotel_FW_EF",
+    "dt_row": "LhFW_MapLakeviewHotelEF",
+    "region": "hotel",
+    "floor": "Burnt 1F",
+    "era": "burnt",
+    "twin": "hotel-1f",
+    "order": 8,
+    "priority": 3,
+    "rotation_deg": 0.0,
+    "scale_px_per_cm": 0.22825957,
+    "cm_per_px": 4.381,
+    "origin_xy": [
+      -69950.863,
+      -53494.463
+    ],
+    "anchor1_world": [
+      -66099.984375,
+      -57100.007812,
+      400.0
+    ],
+    "anchor2_world": [
+      -73800.0,
+      -53250.0,
+      400.0
+    ],
+    "anchor1_ui": [
+      879.0,
+      -823.0
+    ],
+    "anchor2_ui": [
+      -880.0,
+      53.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/LakeViewHotelFW/LakeviewHotelFWEF_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapHotel_1FEBurnt_Widget_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "hotel-burnt-2f",
+    "map_id": 83,
+    "enum_tag": "LakeviewHotel_FW_2F",
+    "dt_row": "LhFW_MapLakeviewHotel2F",
+    "region": "hotel",
+    "floor": "Burnt 2F",
+    "era": "burnt",
+    "twin": "hotel-2f",
+    "order": 9,
+    "priority": 5,
+    "rotation_deg": 0.0,
+    "scale_px_per_cm": 0.22825957,
+    "cm_per_px": 4.381,
+    "origin_xy": [
+      -69950.863,
+      -53494.463
+    ],
+    "anchor1_world": [
+      -66099.984375,
+      -57100.007812,
+      400.0
+    ],
+    "anchor2_world": [
+      -73800.0,
+      -53250.0,
+      400.0
+    ],
+    "anchor1_ui": [
+      879.0,
+      -823.0
+    ],
+    "anchor2_ui": [
+      -880.0,
+      53.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/LakeViewHotelFW/LakeviewHotelFW2F_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapHotel_2FBurnt_Widget_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  },
+  {
+    "slug": "hotel-burnt-3f",
+    "map_id": 84,
+    "enum_tag": "LakeviewHotel_FW_3F",
+    "dt_row": "LhFW_MapLakeviewHotel3F",
+    "region": "hotel",
+    "floor": "Burnt 3F",
+    "era": "burnt",
+    "twin": "hotel-3f",
+    "order": 10,
+    "priority": 6,
+    "rotation_deg": 0.0,
+    "scale_px_per_cm": 0.22825957,
+    "cm_per_px": 4.381,
+    "origin_xy": [
+      -69950.863,
+      -53494.463
+    ],
+    "anchor1_world": [
+      -66099.984375,
+      -57100.007812,
+      400.0
+    ],
+    "anchor2_world": [
+      -73800.0,
+      -53250.0,
+      400.0
+    ],
+    "anchor1_ui": [
+      879.0,
+      -823.0
+    ],
+    "anchor2_ui": [
+      -880.0,
+      53.0
+    ],
+    "is_fog_map": false,
+    "widget_asset": "Game/UI/GameplayMenu/Sections/Maps/LakeViewHotelFW/LakeviewHotelFW3F_MapWidget",
+    "paper_asset": "Game/UI/Resources/GameplayMenu/Maps/MapHotel_3FBurnt_Widget_TB",
+    "nofog_asset": null,
+    "fog_mi_asset": null
+  }
+]
