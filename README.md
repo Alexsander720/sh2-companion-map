@@ -1,6 +1,6 @@
 # SILENT HILL 2 — Live Companion Map
 
-[Русский](README.ru.md) · Version 0.1.0
+[Русский](README.ru.md) · Version 0.1.0 · Steam guide: [English](https://steamcommunity.com/sharedfiles/filedetails/?id=3844641036)
 
 Full-screen desktop, second-monitor & touch tablet companion suite for **SILENT HILL 2 Remake (Steam, PC / Unreal Engine 5)**. Combines all **41 native paper map sheets**, 15 Hz zero-lag read-only live telemetry & 60 FPS interpolated James tracking, full **Loadout / Equipment / Arsenal / Survival Stats** dossier, **Archive** (26 Polaroid gallery, 76 Memos RU/EN reader, 8 Chapters), and **Safes & Codes** cheat-sheet — installable as a fullscreen PWA over Wi-Fi or USB cable (`adb reverse`).
 
