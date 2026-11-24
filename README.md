@@ -58,6 +58,15 @@ python -m pytest -q
 python tools\check_clean.py
 ```
 
+## Support
+
+This companion is free and open-source. If it saved you from pausing to check the map every 30 seconds and you'd like to say thanks, every donation goes directly into building more free game tools and covering the AI subscriptions used to develop them:
+
+- **monobank jar** (cards from any country, Apple Pay, Google Pay) — <https://send.monobank.ua/jar/3zsHTXdRbt> · jar card `4874 1000 3320 3608`
+- **PayPal** — [payment details on the support page](https://alexsander720.github.io/continue/#support)
+- **USDT · TRC20** (Tron) — `TKhmtVEnuU5w73YMPT8adh7t3VZKJUUxmC`
+- **USDT · BEP20** (BNB Smart Chain) — `0xDC0c682922bF3194693774743fBB3fd20E7754c3`
+
 ## Disclaimer & License
 
 Unofficial fan companion, not affiliated with or endorsed by **Konami Digital Entertainment** or **Bloober Team**. Game memory and save files are accessed strictly read-only. No game assets, textures, or localized strings are bundled in this repository. Code is provided under the [MIT License](LICENSE).

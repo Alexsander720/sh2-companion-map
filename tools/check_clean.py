@@ -14,6 +14,8 @@ PRIVATE_WORDS = [bytes.fromhex(s).decode('utf-8') for s in (
     '62616e3133', '61706f67756c6179', '416c657873616e646572', '40676d61696c',
     '416c6578', 'd09ed180d0bad0b5d181d182d180', '6f7263686573747261',
 )]
+APPROVED_SUPPORT_URL = 'https://' + bytes.fromhex('616c657873616e646572373230').decode('utf-8') + '.github.io/continue/#support'
+APPROVED_SUPPORT_FILES = {'README.md', 'README.ru.md', '.github/FUNDING.yml'}
 PATTERNS = {
     'absolute Windows path': re.compile(r'(?<![A-Za-z0-9])[A-Za-z]:[\\/]'),
     'private identifier': re.compile('|'.join(re.escape(s) for s in PRIVATE_WORDS), re.I),
@@ -75,8 +77,9 @@ def inspect_file(name: str, data: bytes) -> list[str]:
     except (ValueError, zlib.error, struct.error):
         issues.append('invalid PNG metadata')
         text = ''
+    scan_text = text.replace(APPROVED_SUPPORT_URL, '') if name in APPROVED_SUPPORT_FILES else text
     for label, pattern in PATTERNS.items():
-        if pattern.search(text):
+        if pattern.search(scan_text):
             issues.append(label)
     if p.parts and p.parts[0] == 'data' and p.suffix == '.json':
         try:
